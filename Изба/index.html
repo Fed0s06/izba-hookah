@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кальянная "Изба" | Наро-Фоминск | Hookah bar</title>
+<meta name="description" content="Кальянная 'Изба' в Наро-Фоминске. Уютная атмосфера, качественные кальяны, вкусная кухня. Забронируйте стол по телефону +7 (977) 532-77-27">
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+
+<body>
+
+<header class="topbar">
+    <button class="hamburger" aria-label="Меню">☰</button>
+    
+    <nav class="nav">
+        <a href="#">Главная</a>
+        <a href="#gallery">Галерея</a>
+        <a href="#menu">Меню</a>
+        <a href="#about">О нас</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+
+    <div class="contact-bar">
+        <span>Московская область, Наро-Фоминск, улица Пешехонова, 11Б</span>
+        <span>Телефон: +7 (977) 532-77-27</span>
+    </div>
+</header>
+
+<section class="hero">
+    <img src="главная.jpg" alt="Интерьер кальянной" class="hero-bg">
+
+    <div class="hero-content">
+        <h1>Изба</h1>
+        <p>Чувствуй себя как дома</p>
+        <a href="#gallery" class="btn">Смотреть галерею</a>
+    </div>
+</section>
+
+<section class="gallery-section" id="gallery">
+    <div class="container">
+        <h2 class="gallery-title">Галерея</h2>
+        
+        <div class="gallery-container">
+            <div class="slides-container" id="slides-container"></div>
+            
+            <button class="gallery-btn prev-btn">‹</button>
+            <button class="gallery-btn next-btn">›</button>
+            
+            <div class="gallery-controls">
+                <button class="zoom-btn" id="gallery-zoom">🔍 Увеличить фото</button>
+            </div>
+            
+            <div class="photo-counter">
+                <span id="current-photo">1</span> / <span id="total-photos">34</span>
+            </div>
+            
+            <div class="gallery-thumbnails">
+                <div class="thumbnails-container" id="thumbnails-container"></div>
+                <button class="thumb-nav-btn thumb-prev">‹</button>
+                <button class="thumb-nav-btn thumb-next">›</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="menu-section" id="menu">
+    <div class="container">
+        <h2 class="menu-title">Меню</h2>
+        
+        <div class="menu-pages">
+            <div class="menu-page active">
+                <img src="menu1.jpg" alt="Меню - Страница 1">
+                <div class="page-number">Страница 1</div>
+            </div>
+            
+            <div class="menu-page">
+                <img src="menu2.jpg" alt="Меню - Страница 2">
+                <div class="page-number">Страница 2</div>
+            </div>
+        </div>
+        
+        <div class="menu-navigation">
+            <button class="menu-nav-btn prev-page">‹ Назад</button>
+            <div class="page-counter">
+                <span id="current-page">1</span> / <span id="total-pages">2</span>
+            </div>
+            <button class="menu-nav-btn next-page">Вперёд ›</button>
+        </div>
+        
+        <div class="menu-controls">
+            <button class="zoom-btn" id="menu-zoom">🔍 Увеличить меню</button>
+        </div>
+    </div>
+</section>
+
+<section class="about-section" id="about">
+    <div class="container">
+        <h2 class="about-title">О нас</h2>
+        
+        <div class="about-content">
+            <div class="about-text">
+                <div class="about-block">
+                    <h3>Добро пожаловать в «Избу»</h3>
+                    <p>«Изба» — это не просто кальянная, это место, где встречаются друзья, 
+                    расслабляются после трудного дня и чувствуют себя как дома. 
+                    Мы создали пространство, где каждый гость становится частью нашей большой семьи.</p>
+                </div>
+                
+                <div class="about-block">
+                    <h3>Почему «Изба»?</h3>
+                    <p>Мы выбрали это название не случайно. Как в старинной русской избе, 
+                    у нас царит атмосфера тепла, уюта и гостеприимства. 
+                    Деревянный интерьер, мягкий свет и душевная обстановка — 
+                    всё это ждёт вас в нашем заведении.</p>
+                </div>
+                
+                <div class="about-features">
+                    <div class="feature">
+                        <div class="feature-icon">🎯</div>
+                        <h4>Качество</h4>
+                        <p>Кальяны премиум-класса и свежие миксы</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">🏠</div>
+                        <h4>Уют</h4>
+                        <p>Атмосфера, в которую хочется возвращаться</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">🍽️</div>
+                        <h4>Кухня</h4>
+                        <p>Вкусные блюда по домашним рецептам</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">🎮</div>
+                        <h4>Развлечения</h4>
+                        <p>Настольные игры и уютные зоны для компаний</p>
+                    </div>
+                </div>
+                
+                <div class="about-block">
+                    <h3>Наша философия</h3>
+                    <p class="philosophy"><em>"Мы верим, что хороший отдых — это не только качественный кальян, 
+                    но и атмосфера, в которую хочется возвращаться. 
+                    Наша цель — сделать так, чтобы вы чувствовали себя как дома, 
+                    даже если находитесь далеко от него."</em></p>
+                </div>
+            </div>
+            
+            <div class="about-image">
+                <img src="about.jpg" alt="Интерьер Избы">
+                <div class="image-caption">Наша уютная Изба ждёт вас!</div>
+            </div>
+        </div>
+        
+        <div class="fun-facts">
+            <h3>Только у нас!</h3>
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <div class="fact-icon">✨</div>
+                    <div class="fact-content">
+                        <h4>Атмосферное преимущество</h4>
+                        <p>У нас настолько уютно, что телефонная батарея разряжается на 30% медленнее</p>
+                    </div>
+                </div>
+                
+                <div class="fact-card">
+                    <div class="fact-icon">🍰</div>
+                    <div class="fact-content">
+                        <h4>Сладкий секрет</h4>
+                        <p>Наш плов настолько вкусный, что некоторые гости заказывают его на десерт</p>
+                    </div>
+                </div>
+                
+                <div class="fact-card">
+                    <div class="fact-icon">🔮</div>
+                    <div class="fact-content">
+                        <h4>Кальянное предсказание</h4>
+                        <p>По форме кальянного клуба наши гости пытаются угадать будущее. Пока 50/50</p>
+                    </div>
+                </div>
+                
+                <div class="fact-card">
+                    <div class="fact-icon">👻</div>
+                    <div class="fact-content">
+                        <h4>Дружелюбный призрак</h4>
+                        <p>По легенде, у нас живет призрак, который поправляет криво стоящие стаканы</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="about-stats">
+            <div class="stat">
+                <div class="stat-number">2+</div>
+                <div class="stat-text">года работы</div>
+            </div>
+            
+            <div class="stat">
+                <div class="stat-number">1000+</div>
+                <div class="stat-text">довольных гостей</div>
+            </div>
+            
+            <div class="stat">
+                <div class="stat-number">50+</div>
+                <div class="stat-text">видов кальянов</div>
+            </div>
+            
+            <div class="stat">
+                <div class="stat-number">+100</div>
+                <div class="stat-text">к настроению</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer" id="contacts">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3 class="footer-title">Изба</h3>
+                <p class="footer-tagline">Чувствуй себя как дома</p>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div class="contact-text">
+                        <strong>Наш адрес:</strong><br>
+                        Московская область, Наро-Фоминск,<br>
+                        улица Пешехонова, 11Б
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <div class="contact-icon">⏰</div>
+                    <div class="contact-text">
+                        <strong>Часы работы:</strong><br>
+                        Ежедневно с 11:00 до 01:00<br>
+                        <span class="work-note">Работаем даже в праздники!</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-contacts">
+                <h4>Забронируйте стол прямо сейчас!</h4>
+                <p class="contact-description">Звоните нам, чтобы забронировать столик, организовать день рождения, 
+                корпоратив или любой другой праздник. Мы поможем сделать ваше мероприятие незабываемым!</p>
+                
+                <a href="tel:+79775327727" class="phone-link">
+                    <div class="contact-item phone">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-text">
+                            <strong>Телефон для бронирования:</strong><br>
+                            <span class="phone-number">+7 (977) 532-77-27</span>
+                        </div>
+                    </div>
+                </a>
+                
+                <div class="holiday-notice">
+                    <div class="holiday-icon">🎄</div>
+                    <div class="holiday-text">
+                        <strong>Важно:</strong> Работаем в Новый год!<br>
+                        Принимаем бронирование на праздничные дни
+                    </div>
+                </div>
+                
+                <div class="booking-features">
+                    <div class="feature-item">
+                        <div class="feature-icon">🎂</div>
+                        <span>Дни рождения</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">👥</div>
+                        <span>Корпоративы</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">💝</div>
+                        <span>Свидания</span>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🎉</div>
+                        <span>Праздники</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-note">К нам легко добраться на машине. Есть парковка.<br>
+            Уютная атмосфера, вкусная кухня и хорошие кальяны ждут вас!</div>
+            
+            <div class="copyright">© 2024 Кальянная «Изба». Наро-Фоминск<br>Чувствуй себя как дома!</div>
+        </div>
+    </div>
+</footer>
+
+<script src="gallery.js"></script>
+</body>
+</html>
+
