@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /izba-hookah.git/
+Disallow: /settings/
+Allow: /
+
+Sitemap: https://fed0s06.github.io/izba-hookah/sitemap.xml
